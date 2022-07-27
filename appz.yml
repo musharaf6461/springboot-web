@@ -4,7 +4,6 @@ app:
   notify: mmusharaf@ecloudcontrol.com
   
 build:
-  build_file: pom.xml
   env: DEV
   image_template: springboot-v2
   output_files: target/*.jar
